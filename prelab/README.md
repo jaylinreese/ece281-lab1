@@ -5,7 +5,7 @@
 ### Truth Table
 
 Insert your truth table here
-|     | 0 | 0 | 0 | 0 | x |
+|     | A | B | C | D | Y |
 |-----|---|---|---|---|---|
 | JAN | 0 | 0 | 0 | 1 | 1 |
 | FED | 0 | 0 | 1 | 0 | 0 |
@@ -18,11 +18,11 @@ Insert your truth table here
 | SEP | 1 | 0 | 0 | 1 | 0 |
 | OCT | 1 | 0 | 1 | 0 | 1 |
 | NOV | 1 | 0 | 1 | 1 | 0 |
-| DEC | 1 | 1 | 1 | 0 | 1 |
+| DEC | 1 | 1 | 0 | 0 | 1 |
 ### Boolean Equation
 
 $$
-Y = ?
+Y = AC'D'+A'D+AB'D'
 $$
 
 ### Digital Simulations
